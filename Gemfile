@@ -7,6 +7,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"
 
 gem 'nokogiri'
+gem 'aws-sdk-dynamodb'
 
 group :development, :test do
   gem 'byebug'
